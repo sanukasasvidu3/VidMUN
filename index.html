@@ -2,9 +2,118 @@
 <html>
 <head>
     <title>VidMUN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            background: rgba(0,0,0,0.3);
+        }
+
+        .hero {
+            padding: 120px 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+        }
+
+        .hero p {
+            margin-top: 15px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            border-radius: 30px;
+            background: white;
+            color: #0f2027;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ddd;
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 15px auto;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        footer {
+            padding: 20px;
+            background: rgba(0,0,0,0.4);
+            margin-top: 50px;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
+
+<header>
+    Vidyaloka Model United Nations
+</header>
+
+<div class="hero">
     <h1>Welcome to VidMUN 2026</h1>
-    <p>Official website of Vidyaloka Model United Nations.</p>
+    <p>The Official Conference Platform</p>
+    <a href="#" class="btn">Register Now</a>
+</div>
+
+<section>
+    <h2>Our Committees</h2>
+
+    <div class="card">
+        <h3>UNGA</h3>
+        <p>General Assembly Discussions</p>
+    </div>
+
+    <div class="card">
+        <h3>UNEP</h3>
+        <p>Environmental Policy & Global Solutions</p>
+    </div>
+
+    <div class="card">
+        <h3>WHO</h3>
+        <p>Global Health & Crisis Management</p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 VidMUN | Built with GitHub Pages
+</footer>
+
 </body>
 </html>
